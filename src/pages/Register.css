@@ -1,0 +1,120 @@
+.inputss input {
+  width: 60%;
+  margin: 5px 0px;
+  padding-left: 10px;
+
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  border: 0.5px solid #cccccc;
+}
+.inputss input:hover{
+  border-bottom-color: orange;
+}
+.fifty input .p-l {
+  padding-left: 20px;
+}
+
+.regiterWrapper h1 {
+  font-size: 18px;
+}
+.textCenterr {
+  text-align: center;
+}
+.registertitle {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.darkbl {
+  margin-bottom: 10px;
+  color: #2d385e;
+}
+.regiterWrapper h2 {
+  font-size: 16px;
+}
+
+.agree {
+  background-color: #516cf0;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 85%;
+}
+.agree:hover {
+  background-color: #fe8402;
+}
+.onhover {
+  color: #da7000;
+  margin-left: 5px;
+}
+.onhover:hover {
+  text-decoration: underline;
+}
+
+.password {
+  position: relative;
+}
+
+.password .eye {
+  position: absolute;
+  right: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
+  font-size: 20px;
+}
+.coloro {
+  color: #da7000;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.terms {
+  font-size: 12px;
+  font-weight: normal;
+  color: #6c757d;
+}
+.lastones {
+  text-align: center;
+}
+.already {
+  color: #da7000;
+  cursor: pointer;
+  padding: 5px;
+}
+
+@media (min-width: 1025px) {
+  .fifty {
+    display: flex;
+    justify-content: space-between;
+  }
+  .fifty input .p-1 {
+    margin-left: 20%;
+  }
+  .password .eye {
+    right: 20%;
+  }
+  .inputss input {
+    width: 400px;
+    height: auto;
+    padding: 5px;
+  }
+  .fifty {
+    width: 90%;
+    margin-left: 5.5%;
+  }
+  .fifty input {
+    width: calc(50% - 10px);
+    padding: 5px;
+  }
+  .p-l {
+    padding-left: 20px;
+  }
+  .agree {
+    padding: 15px 15px;
+  }
+}

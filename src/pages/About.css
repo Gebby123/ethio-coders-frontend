@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+	/* font-family: 'Oswald', sans-serif; */
+	/* https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap */
+
+	#home{
+		background-image: url("../image/bg2.webp");
+		background-size: cover;
+		background-position:center ;
+		background-repeat: no-repeat;
+		
+	}
+
+.aboutMainWrapper {
+	margin-top: 10px;
+	
+	    /* font-family: 'Poppins', sans-serif; */
+	 /* font-weight: 300;  */
+}
+.abouttitle{
+	color:#4B456F ;
+	
+}
+.textColor {
+	color:rgb(0, 0, 0);
+	line-height: 20px;
+	font-size: 14px;
+	font-weight:bold;
+}
+.aboutColor {
+	color: #fe8402;
+	font-weight: bold;
+}
+.aboutButton {
+	background-color: #fe8402;
+	padding: 13px 30px;
+	margin-top: 30px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 14px;
+}
+
+.textColor > p{
+    font-size: 14px;
+}
+
+/* media */
+@media(min-width:668px){
+.aboutMainWrapper {
+	margin-top: 160px;
+	
+}
+}

@@ -1,0 +1,96 @@
+
+
+.joinNetwork {
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
+.inputs input {
+	width: 100%;
+background-color: #E8F0FE;
+	margin: 10px;
+	margin-left: 6vw;
+	border-radius: 6px;
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+.password {
+	position: relative;
+}
+
+
+
+.password .eyes {
+	position: absolute;
+	right: 18%; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	cursor: pointer;
+	color: #999; 
+	font-size: 20px; 
+}
+
+.eye:hover {
+	
+	color: #f2b952;
+}
+.textCenter {
+	text-align: center;
+
+}
+.forgetpassword{
+	padding-left:6vw;
+	
+	text-decoration: none;
+	color: orange;
+}
+.toblue {
+  margin-top: 20px;
+	background-color: #516cf0;
+	padding: 10px 0px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 14px;
+	width: 83%;
+	margin-left: 40px;
+}
+
+
+.toblue:hover {
+	background-color: #fe8402;
+}
+
+.alerts {
+	color: #e487ac;
+	margin-left: 80px;
+}
+
+.y-scroll {
+	overflow: auto;
+}
+@media(min-width:768px){
+.inputs input {
+	width: 20vw;
+	height: auto;
+	
+}
+.password .eyes {
+	right:-62%
+}
+.toblue{
+	width: 20vw;
+	margin-left: 6vw;
+}
+.ptop{
+	padding-top: 40px;
+}
+
+}
+
+@media(min-width:1440px){
+	.inputs input {
+	width: 14vw}
+	.toblue{
+	width: 14vw;}
+}

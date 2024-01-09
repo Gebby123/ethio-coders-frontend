@@ -1,0 +1,61 @@
+
+.header{
+	background-color:#F5F5F5;
+	height: 100px;
+}
+.evangadiImage{
+	margin-left: 30%;
+	background-color: white;
+	width: 80%;
+	height: 60px;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbarimage{
+	transform: translate(0.2);
+}
+.navbar-nav > a:hover {
+	color: #fe8402;
+	text-decoration: none;
+}
+.button {
+	background-color: #516cf0;
+	padding: 13px 75px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 14px;
+}
+.button:hover {
+	background-color: #fe8402;
+}
+
+.tomblue {
+	background-color: #516cf0;
+	border-radius: 8px;
+	padding: 10px 40px;
+	color: #ffffff;
+	
+	text-decoration: none !important;
+	transition: background-color 0.3s;
+}
+.tomblues{
+	text-decoration: none !important;
+}
+
+.tomblue:hover {
+	background-color: #fe8402;
+	text-decoration: none !important;
+	transition: background-color 0.3s;
+}
+.ml{
+	margin-left: 80vh;
+}
+.links{
+	text-decoration: none;
+	color:gray ;
+}
+.links:hover{
+ color: #fe8402 ;
+}

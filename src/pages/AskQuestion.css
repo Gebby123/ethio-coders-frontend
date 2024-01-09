@@ -1,0 +1,44 @@
+.tocenter{
+  padding-left:50px ;
+  font-size: 18px;
+  
+}
+.to{
+  text-align:center;
+}
+.askTitle{
+  font-size: 24px;
+}
+.subAsk{
+  font-size: 16px;
+}
+
+.purples{
+  color:#35355E
+}
+
+.mt0p{
+ margin-top: 140px;
+}
+.Alert{
+  color: pink;
+  text-align: center;
+}
+@media (min-width:680px){
+  .tocenter{
+  padding-left:250px ;
+
+}
+.askTitle{
+  font-size:x-large large;
+  margin-bottom: 15px;
+}
+.subAsk{
+  font-size:medium ;
+  margin-bottom: 20px;
+}
+}
+.postQuestion button{
+  padding: 5px 13px;
+  border-radius: 10px;
+}
