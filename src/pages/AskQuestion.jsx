@@ -109,6 +109,7 @@ const navigate = useNavigate();
             </div>
             <div className="postQuestion">
               <button
+                type="button" // Add this line
                 onClick={postQuestion}
                 className="blue"
                 style={{ margin: "5px" }}
