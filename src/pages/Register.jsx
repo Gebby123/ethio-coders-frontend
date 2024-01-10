@@ -76,7 +76,8 @@ function Register() {
 
 			// to handle any error
 		} catch (error) {
-			setCatch("something went wrong, try again",error);
+			console.log(error);
+			setCatch("something went wrong, try again");
 		
 		}
 	}
