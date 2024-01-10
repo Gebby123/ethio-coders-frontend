@@ -3,6 +3,8 @@ import axios from "./axiosConfig";
 import "./AskQuestion.css";
 import ArrowCircleRightTwoToneIcon from "@mui/icons-material/ArrowCircleRightTwoTone";
 import ReactQuill from "react-quill";
+import { useNavigate } from "react-router-dom";
+
 import "react-quill/dist/quill.snow.css";
 import DOMPurify from "dompurify"; // Import DOMPurify
 
@@ -11,7 +13,7 @@ function Ask() {
   const [description, setDescription] = useState("");
   const [postAlert, setPostAlerts] = useState("");
   const [errorAlert, seterrorAlerts] = useState("");
-
+const navigate = useNavigate();
   // Utility function to strip HTML and get plain text
   const stripHtml = (html) => {
     const tmp = document.createElement("DIV");
@@ -42,6 +44,7 @@ function Ask() {
       setDescription("");
       setTimeout(() => {
         setPostAlerts("");
+         navigate("/home");
       }, 3000);
     } catch (error) {
       console.log(error);
