@@ -1,7 +1,6 @@
-import axios from 'axios';
+import axios from "axios";
 const axiosBase = axios.create({
-  baseURL: "https://coders-backend.onrender.com/api",
+  baseURL: "https://ethio-coders.onrender.com/api",
 });
-
 
 export default axiosBase;
